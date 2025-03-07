@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой Bootstrap Vite Сайт</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+    <!-- Навигационная панель -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Мой Сайт</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">О нас</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Услуги</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4 text-center">
+        <h1>Добро пожаловать на наш сайт!</h1>
+        <p>Мы предлагаем лучшее решение для вашего бизнеса.</p>
+        <div class="text-center mb-4">
+            <button class="btn btn-primary btn-lg">Связаться с нами</button>
+        </div>
+
+        <!-- Раздел О нас и Услуги -->
+        <div class="row mb-5">
+            <div class="col-md-6">
+                <h2>О нас</h2>
+                <p>Мы - команда преданных своему делу специалистов, предоставляющих высококачественные услуги нашим клиентам.</p>
+            </div>
+            <div class="col-md-6">
+                <h2>Услуги</h2>
+                <p>Мы предлагаем широкий спектр услуг, включая консультации, разработку и поддержку проектов.</p>
+            </div>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+            <div class="col-md-4">
+                <div class="card mb-4 text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Онлайн-платформа для обучения</h5>
+                        <p class="card-text">Интерактивная образовательная система с курсами, тестами и видеоуроками. Идеально подходит для студентов, профессионалов и корпоративного обучения.</p>
+                        <a href="#" class="btn btn-primary">Узнать больше</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Умный помощник длябизнеса</h5>
+                        <p class="card-text">Инновационный AI-ассистент, который помогает автоматизировать рутинные задачи, анализировать данные и предлагать лучшие решения. Подходит для малого и среднего бизнеса, экономит до 40% рабочего времени.</p>
+                        <a href="#" class="btn btn-primary">Узнать больше</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Умное приложение для здоровья</h5>
+                        <p class="card-text">Персональный фитнес- и диетологический трекер, который анализирует ваш стиль жизни и дает индивидуальные рекомендации по питанию и тренировкам.</p>
+                        <a href="#" class="btn btn-primary">Узнать больше</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Подвал -->
+    <footer class="bg-light text-center text-lg-start mt-4">
+        <div class="text-center p-3">
+            © 2023 Мой Сайт
+        </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
